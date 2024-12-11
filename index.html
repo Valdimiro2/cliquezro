@@ -16,38 +16,39 @@
 
 <body>
     <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light py-3">
         <div class="container d-flex align-items-center justify-content-between">
             <!-- Logo e Nome da Marca -->
-        <a class="navbar-brand d-flex align-items-center" href="index.html">
-    <img class="logo" src="img/icone.ico" alt="Logo CliqueZero">
-    <span class="brand-name">CliqueZero</span>
-</a>
+            <a class="navbar-brand d-flex align-items-center" href="index.html">
+                <img class="logo" src="img/icone.ico" alt="Logo CliqueZero">
+                <span class="brand-name">CliqueZero</span>
+            </a>
 
-<style>
-    .logo {
-        width: 150px; /* Novo tamanho do logo */
-        height: 150px; /* Novo tamanho do logo */
-    }
-    
-    .brand-name {
-        font-size: 2rem; /* Tamanho do texto */
-        font-weight: bold;
-        margin-left: 10px;
-    }
+            <style>
+                /* Ajustes no tamanho do logo */
+                .logo {
+                    width: 100px;  /* Tamanho do logo ajustado para 100px */
+                    height: 100px; /* Tamanho do logo ajustado para 100px */
+                }
 
-    /* Responsividade para telas pequenas */
-    @media (max-width: 768px) {
-        .logo {
-            width: 100px;
-            height: 100px;
-        }
-        
-        .brand-name {
-            font-size: 1.2rem;
-        }
-    }
-</style>
+                .brand-name {
+                    font-size: 1.5rem; /* Tamanho do texto reduzido */
+                    font-weight: bold;
+                    margin-left: 10px;
+                }
+
+                /* Responsividade para telas pequenas */
+                @media (max-width: 768px) {
+                    .logo {
+                        width: 80px;
+                        height: 80px;
+                    }
+
+                    .brand-name {
+                        font-size: 1.2rem;
+                    }
+                }
+            </style>
 
             <!-- Botão do Navbar para dispositivos móveis -->
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
@@ -63,7 +64,6 @@
                 </ul>
             </div>
         </div>
-
     </nav>
 
     <!-- Hero Section -->
@@ -123,125 +123,4 @@
             <div class="col-md-2">
                 <div class="card ebook-card shadow-sm">
                     <!-- Imagem como link para outra página -->
-                    <a href="produtos/detalhes-produto.html" class="card-img-top img-container d-flex align-items-center justify-content-center">
-                        <img src="img/invasores.png" class="img-fluid" alt="Ebook 1">
-                    </a>
-                    <div class="card-body">
-                        <h5 class="card-title">Invasores Digitais:</h5>
-                        <p class="card-text">Guia que aborda as técnicas usadas por hackers para acessar suas contas online</p>
-                        <center><span class="fw-bold">1.800,00kz</span></center>
-                        <div class="d-flex justify-content-between align-items-center">
-                            <a href="https://pay.kuenha.com/7b8e9537-9a33-4bec-bfd7-d1b5fa6cfb2a" class="btn btn-primary">Comprar Agora</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-2 mb-4">
-                <div class="card ebook-card shadow-sm">
-                    <div class="card-img-top img-container d-flex align-items-center justify-content-center">
-                        <img src="img/vma.jpg" class="img-fluid" alt="Ebook Invasores">
-                    </div>
-                    <div class="card-body">
-                        <h5 class="card-title">VMA - ANGOLA</h5>
-                        <p class="card-text">Aprenda marketing e empreenda em Angola!</p>
-                        <center><span class="fw-bold">22 700,00 Kz</span></center>
-                        <div class="d-flex justify-content-between align-items-center">
-                            <a href="https://pay.kuenha.com/1a57a9ba-495b-47f6-a50b-76766cfe4a60?p=7310fe7d-7d26-4d67-b213-5455741e82d0" class="btn btn-primary">Comprar Agora</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Outros Cards de Ebooks -->
-        </div>
-
-    </section>
-
-    <!-- Footer -->
-    <footer class="footer">
-        <p>WhatsApp: (+244) 930090005| Email: geralnegociosvc@gmail.com</p>
-        <p>Siga-nos: <a href="https://www.facebook.com/profile.php?id=61569456110696">CliqueZero</a></p>
-        <p>&copy; 2024 CliqueZero. Todos os direitos reservados.</p>
-    </footer>
-
-    <!-- Bootstrap JS -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
-</body>
-
-</html>
-
-
-
-<!-- Modal Contato -->
-<div class="modal fade" id="contactModal" tabindex="-1" aria-labelledby="contactModalLabel" aria-hidden="true">
-    <div class="modal-dialog">
-        <div class="modal-content">
-            <div class="modal-header">
-                <h5 class="modal-title" id="contactModalLabel">Entre em Contato</h5>
-                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-            </div>
-            <div class="modal-body">
-                <p>Tem dúvidas? Entre em contato conosco!</p>
-                <p><strong>Email:</strong> geralnegociosvc@gmail.com</p>
-                <p><strong>Telefone:</strong> +244 930 090 005</p>
-                <p><strong>Endereço:</strong> Bairro Sassonde 2, Huambo, Angola</p>
-            </div>
-            <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
-            </div>
-        </div>
-    </div>
-</div>
-
-
-<div class="modal fade" id="ebooksModal" tabindex="-1" aria-labelledby="ebooksModalLabel" aria-hidden="true">
-    <div class="modal-dialog">
-        <div class="modal-content">
-            <div class="modal-header">
-                <h5 class="modal-title" id="ebooksModalLabel">Nossos Ebooks</h5>
-                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-            </div>
-            <div class="modal-body">
-                <p>Aqui você pode explorar todos os nossos ebooks disponíveis para venda, baseados em áreas como:</p>
-                <ul>
-                    <li>Educação e Desenvolvimento Pessoal</li>
-                    <li>Saúde e Bem-Estar</li>
-                    <li>Negócios e Empreendedorismo</li>
-                    <li>Tecnologia e Habilidades Digitais</li>
-                    <li>Hobbies e Lazer</li>
-                    <li>Desenvolvimento Criativo</li>
-                    <li>E muitos mais...</li>
-                    <!-- Adicione mais ebooks conforme necessário -->
-                </ul>
-            </div>
-            <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
-                <a href="ebooks.html" class="btn btn-primary">Ver Todos</a>
-            </div>
-        </div>
-    </div>
-</div>
-
-<!-- Modal Vantagens -->
-<div class="modal fade" id="featuresModal" tabindex="-1" aria-labelledby="featuresModalLabel" aria-hidden="true">
-    <div class="modal-dialog">
-        <div class="modal-content">
-            <div class="modal-header">
-                <h5 class="modal-title" id="featuresModalLabel">Vantagens</h5>
-                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-            </div>
-            <div class="modal-body">
-                <p>Descubra as vantagens de comprar conosco:</p>
-                <ul>
-                    <li>Entrega Rápida</li>
-                    <li>Preços Acessíveis</li>
-                    <li>Suporte 24/7</li>
-                    <!-- Adicione mais vantagens conforme necessário -->
-                </ul>
-            </div>
-            <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
-            </div>
-        </div>
-    </div>
-</div>
+                    <a href="produtos/detalhes-produto.html" class="card-img-top img-container d-flex align-items-c
