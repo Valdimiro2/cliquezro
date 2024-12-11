@@ -19,10 +19,35 @@
     <nav class="navbar navbar-expand-lg">
         <div class="container d-flex align-items-center justify-content-between">
             <!-- Logo e Nome da Marca -->
-            <a class="navbar-brand d-flex align-items-center" href="index.html">
-                <img src="img/icone.ico" alt="Logo CliqueZero" style="width: 120px; height: 120px; margin-right: 10px;">
-                <span style="font-size: 1.5rem; font-weight: bold;">CliqueZero</span>
-            </a>
+        <a class="navbar-brand d-flex align-items-center" href="index.html">
+    <img class="logo" src="img/icone.ico" alt="Logo CliqueZero">
+    <span class="brand-name">CliqueZero</span>
+</a>
+
+<style>
+    .logo {
+        width: 150px; /* Novo tamanho do logo */
+        height: 150px; /* Novo tamanho do logo */
+    }
+    
+    .brand-name {
+        font-size: 2rem; /* Tamanho do texto */
+        font-weight: bold;
+        margin-left: 10px;
+    }
+
+    /* Responsividade para telas pequenas */
+    @media (max-width: 768px) {
+        .logo {
+            width: 100px;
+            height: 100px;
+        }
+        
+        .brand-name {
+            font-size: 1.2rem;
+        }
+    }
+</style>
 
             <!-- Botão do Navbar para dispositivos móveis -->
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
